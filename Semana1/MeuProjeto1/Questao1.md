@@ -7,3 +7,5 @@
 * `dotnet` --list-runtimes - Lista todas as versões do .NET Runtime instaladas
 * `dotnet` --uninstall-sdk <versão> - Remover uma versão específica
 * `dotnet` --list-sdks e dotnet --install-sdk <versão> - Atualizar o .NET SDK
+
+continuação das questoes 2-8 em Program.cs
