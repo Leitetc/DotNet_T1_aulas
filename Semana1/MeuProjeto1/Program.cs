@@ -1,31 +1,84 @@
-﻿/*Questão 02. Tipos de Dados:*/
-
-
- int numeroInteiro = 42, tipoInteiro, tipoInteiro2;
-//sbyte armazena números inteiros com sinal de 8 bits
-
-
-tipoInteiro = int.MaxValue;
-tipoInteiro2 = int.MinValue;
+﻿/*
+sbyte armazena valores de -128 a 127
+byte armazena valores de 0 a 255
+short armazena valores de -32768 a 32767
+ushort armazena valores de 0 a 65535
+int armazena valores de -2147483648 a 2147483647
+uint armazena valores de 0 a 4294967295
+long armazena valores de -9223372036854775808 a 9223372036854775807
+ulong armazena valores de 0 a 18446744073709551615
+*/
+int tipoInteiro = int.MaxValue;
+int tipoInteiro2 = int.MinValue;
 sbyte ValorMi = sbyte.MinValue;
 sbyte maxValue = sbyte.MaxValue;
-//Exemplos
-
- Console.WriteLine("Maximo de tipo int: " + tipoInteiro);
- Console.WriteLine("Minimo de tipo int: " + tipoInteiro2);
-
-
-
+byte maxbyte = byte.MaxValue;
+byte minbyte = byte.MinValue;
+short maxsh = short.MaxValue;
+short minsh = short.MinValue;
+ushort maxus = ushort.MaxValue;
+ushort minus = ushort.MinValue;
+uint maxui = uint.MaxValue;
+uint minui = uint.MinValue;
+long maxlo = long.MaxValue;
+long minlo = long.MinValue;
+ulong maxul = ulong.MaxValue;
+ulong minul = ulong.MinValue;
+//Exemplo
+Console.WriteLine("Questão 02. Tipos de Dados");
+Console.WriteLine("Maximo de tipo int: " + tipoInteiro);
+Console.WriteLine("Minimo de tipo int: " + tipoInteiro2);
 Console.WriteLine("O valor mínimo de sbyte é: " + ValorMi);
 Console.WriteLine("O valor máximo de sbyte é: " + maxValue);
-/*Questão 03. Conversão de Tipos de Dados:*/
+Console.WriteLine("O valor máximo de um byte é: " + maxbyte);
+Console.WriteLine("O valor mínimo de um byte é: " + minbyte);
+Console.WriteLine("O valor máximo de um short é: " + maxsh);
+Console.WriteLine("O valor mínimo de um short é: " + minsh);
+Console.WriteLine("O valor máximo de um ushort é: " + maxus);
+Console.WriteLine("O valor mínimo de um ushort é: " + minus);
+Console.WriteLine("O valor máximo de um uint é: " + maxui);
+Console.WriteLine("O valor mínimo de um uint é: " + minui);
+Console.WriteLine("O valor máximo de um long é: " + maxlo);
+Console.WriteLine("O valor mínimo de um long é: " + minlo);
+Console.WriteLine("O valor máximo de um ulong é: " + maxul);
+Console.WriteLine("O valor mínimo de um ulong é: " + minul);
+Console.WriteLine();
 
-/*Questão 04. Operadores Aritméticos:*/
 
-/*Questão 05. Operadores de Comparação:*/
+Console.WriteLine("Questão 03. Conversão de Tipos de Dados:");
 
-/*Questão 06. Operadores de Igualdade:*/
+Console.WriteLine();
+Console.WriteLine("Questão 04. Operadores Aritméticos:");
+int x = 30;
+int y = 3;
 
-/*Questão 07. Operadores Lógicos:*/
+int soma = x + y;
+int subtracao = x - y;
+int multiplicacao = x * y;
+int divisao = x / y;
 
-/*Questão 08. Desafio de Mistura de Operadores:*/
+Console.WriteLine($"Soma: {soma}");
+Console.WriteLine($"Subtração: {subtracao}");
+Console.WriteLine($"Multiplicação: {multiplicacao}");
+Console.WriteLine($"Divisão: {divisao}");
+
+Console.WriteLine();
+Console.WriteLine("Questão 05. Operadores de Comparação:");
+int a = 5;
+int b = 8;
+
+if (a > b)
+{
+    Console.WriteLine("a é maior que b");
+}
+else
+{
+    Console.WriteLine("b é maior que a");
+}
+Console.WriteLine();
+Console.WriteLine("Questão 06. Operadores de Igualdade:");
+
+Console.WriteLine();
+Console.WriteLine("Questão 07. Operadores Lógicos:");
+Console.WriteLine();
+Console.WriteLine("Questão 08. Desafio de Mistura de Operadores:");
