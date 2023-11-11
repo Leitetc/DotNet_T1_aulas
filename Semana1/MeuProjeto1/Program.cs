@@ -90,5 +90,29 @@ else
 }
 Console.WriteLine();
 Console.WriteLine("Questão 07. Operadores Lógicos:");
+bool condicao1 = true;
+bool condicao2 = false;
+
+if (condicao1 && condicao2)
+{
+    Console.WriteLine("As duas condições são verdadeiras");
+}
+else
+{
+    Console.WriteLine("Pelo menos uma das condições é falsa");
+}
 Console.WriteLine();
 Console.WriteLine("Questão 08. Desafio de Mistura de Operadores:");
+
+int num1 = 7;
+int num2 = 3;
+int num3 = 10;
+
+if (num1 > num2 && num3 == num1 + num2)
+{
+    Console.WriteLine("num1 é maior que num2 e num3 é igual a num1 + num2");
+}
+else
+{
+    Console.WriteLine("As condições não são satisfeitas");
+}
