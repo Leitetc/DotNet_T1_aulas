@@ -77,7 +77,17 @@ else
 }
 Console.WriteLine();
 Console.WriteLine("Questão 06. Operadores de Igualdade:");
+string str1 = "Hello";
+string str2 = "World";
 
+if (str1 == str2)
+{
+    Console.WriteLine("As strings são iguais");
+}
+else
+{
+    Console.WriteLine("As strings são diferentes");
+}
 Console.WriteLine();
 Console.WriteLine("Questão 07. Operadores Lógicos:");
 Console.WriteLine();
