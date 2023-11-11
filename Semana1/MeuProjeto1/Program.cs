@@ -47,6 +47,10 @@ Console.WriteLine();
 
 Console.WriteLine("Questão 03. Conversão de Tipos de Dados:");
 
+double valorDouble = 9.54;
+int valorInt = Convert.ToInt32(valorDouble);
+Console.WriteLine(valorInt);
+
 Console.WriteLine();
 Console.WriteLine("Questão 04. Operadores Aritméticos:");
 int x = 30;
