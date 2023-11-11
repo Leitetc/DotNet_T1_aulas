@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-//dados numéricos inteiros
+﻿//dados numéricos inteiros
  int numeroInteiro = 42, tipoInteiro, tipoInteiro2;
  decimal numeroDecimal = 3.14m;
  long numeroLongo = 1234567890123456;
